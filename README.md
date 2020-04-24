@@ -1,32 +1,5 @@
 # JSON Resume Template
-[JSON Resume](https://jsonresume.org/) is an open source initiative to create a JSON-based standard for resume. This repository aims to provide you a sample file containing a valid definition based on [v1.0 schema](https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json) that can be used on multiple projects and services like [Me](https://github.com/jkga/me) !
-
-[![JSON RESUME](https://img.shields.io/badge/format-JSON%20RESUME%20-yellow?style=for-the-badge&logo=json)](http://jsonresume.org) 
-
-## [Me](https://github.com/jkga/me) 
-A next-gen JAMSTACK template for developers that leverage the use of JSON Resume Schema to create a web based vitae / portfolio. Stop worrying with a complex setup and deployment process.
-
-![me logo](https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png)
-
-> Docs: https://me-docs.now.sh/   
-
-> Repository: https://github.com/jkga/me
-
-## :loudspeaker: NOTICE TO THE PUBLIC
-> :lock: All the information you included in your `JSON` files are public and **MUST NOT CONTAIN** any information that you do not want to share to everyone. Thus, you are fully accountable on what you share on your public repositories and we should not be held responsible or liable for your negligence.
-
-## Getting Started
-1. Click the `"Use this template"` button on this page to create a new repository based on this template
-  ![use template image](https://user-images.githubusercontent.com/10413754/80201503-d4940000-8656-11ea-9ce9-bae19f70cc00.png)
-2. Name your new repository `about.me`
-> **Note:** The service only looks for `about.me` repository on github and changing it to something else would make your resume undiscoverable
-![create repository from template](https://user-images.githubusercontent.com/10413754/80216230-53496700-8670-11ea-87ca-64230825a666.png)
-3. Go to :waning_gibbous_moon:
- https://me-web.now.sh/write-your-github-username to view your ready made online portfolio 
-4. Update `index.json` content with your information and please validate it using [this json schema validator](https://www.jsonschemavalidator.net/) before you commit
-
-![validator](https://user-images.githubusercontent.com/10413754/80218198-7295c380-8673-11ea-8e15-ad52d3840da1.png)
-
+[JSON Resume](https://jsonresume.org/) is an open source initiative to create a JSON-based standard for resume. This repository aims to provide you a sample file containing a valid definition based on [v1.0 schema](https://github.com/jsonresume/resume-schema/blob/v1.0.0/schema.json) that can be used on multiple projects and services
 
 ## JSON Resume Definition
 Please see  `index.json` for comple example
@@ -262,3 +235,8 @@ Please see  `index.json` for comple example
     ]
   }
 ```
+
+## Related Projects
+| Name | Description |
+|---|---|
+| [me](https://github.com/jkga/me) | :rocket: A next-gen JAMSTACK template for **developers** that leverage the use of [JSON Resume Schema](https://jsonresume.org/schema) in creating a web based vitae and portfolio. Stop worying with a complex setup and deployment process.
