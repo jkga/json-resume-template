@@ -31,7 +31,7 @@ Please see  `index.json` for comple example
       "image": "https://user-images.githubusercontent.com/...",
       "email": "johndoe@gmail.com",
       "phone": "(111) 333-4567",
-      "website": "http://johndoe.com",
+      "url": "http://johndoe.com",
       "summary": "Lorem ipsum dolor sit amet, consecte...",
       "location": {
         "address": "22111 Makiling",
@@ -65,9 +65,9 @@ Please see  `index.json` for comple example
   {
     "work": [
       {
-        "company": "Company",
+        "name": "Company",
         "position": "Developer",
-        "website": "http://somecompany.com",
+        "url": "http://somecompany.com",
         "startDate": "2020-01-01",
         "endDate": "2020-01-01",
         "summary": "Lorem ipsum dolor sit amet, consectet...",
@@ -87,7 +87,7 @@ Please see  `index.json` for comple example
        {
         "organization": "Organization",
         "position": "Volunteer",
-        "website": "http://organization.com/",
+        "url": "http://organization.com/",
         "startDate": "2020-01-01",
         "endDate": "2020-01-01",
         "summary": "Lorem ipsum dolor sit amet, consectetu...",
@@ -106,11 +106,12 @@ Please see  `index.json` for comple example
     "education": [
       {
         "institution": "University",
+        "url": "https://institution.ph",
         "area": "Software Development",
         "studyType": "Bachelor",
         "startDate": "2020-01-01",
         "endDate": "2020-01-01",
-        "gpa": "4.0",
+        "score": "4.0",
         "courses": [
           "WEB101 - Web Development",
           "SYS123 - Object Oriented Programming"
@@ -144,7 +145,7 @@ Please see  `index.json` for comple example
         "name": "Publication",
         "publisher": "Company",
         "releaseDate": "2020-10-01",
-        "website": "http://publication.com",
+        "url": "http://publication.com",
         "summary": "Lorem ipsum dolor sit amet, consectetur..."
       }
     ]
@@ -170,7 +171,7 @@ Please see  `index.json` for comple example
   }
 ```
 
-### Language
+### Languages
 
 ```json
   {

@@ -5,7 +5,7 @@
     "image": "https://user-images.githubusercontent.com/10413754/79948155-e5e9da80-84a5-11ea-83eb-34e2f5aa89f6.png",
     "email": "johndoe@gmail.com",
     "phone": "(111) 333-4567",
-    "website": "http://johndoe.com",
+    "url": "http://johndoe.com",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
     "location": {
       "address": "22111 Makiling",
@@ -21,9 +21,9 @@
     }]
   },
   "work": [{
-    "company": "Company",
+    "name": "Company",
     "position": "Developer",
-    "website": "http://somecompany.com",
+    "url": "http://somecompany.com",
     "startDate": "2020-01-01",
     "endDate": "2020-01-01",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -34,7 +34,7 @@
   "volunteer": [{
     "organization": "Organization",
     "position": "Volunteer",
-    "website": "http://organization.com/",
+    "url": "http://organization.com/",
     "startDate": "2020-01-01",
     "endDate": "2020-01-01",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
@@ -44,11 +44,12 @@
   }],
   "education": [{
     "institution": "University",
+    "url": "https://institution.ph",
     "area": "Software Development",
     "studyType": "Bachelor",
     "startDate": "2020-01-01",
     "endDate": "2020-01-01",
-    "gpa": "4.0",
+    "score": "4.0",
     "courses": [
       "WEB101 - Web Development",
       "SYS123 - Object Oriented Programming"
@@ -64,7 +65,7 @@
     "name": "Publication",
     "publisher": "Company",
     "releaseDate": "2020-10-01",
-    "website": "http://publication.com",
+    "url": "http://publication.com",
     "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat."
   }],
   "skills": [{
